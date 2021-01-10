@@ -29,7 +29,7 @@ body {
 }
 
 .avatar-image {
-    background: url("../images/avatar.png") no-repeat;
+    background: url("../images/avatar.jpg") no-repeat;
     background-size: 100%;
     border-radius: 100px;
     border: 2px solid black;
