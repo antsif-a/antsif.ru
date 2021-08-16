@@ -1,0 +1,36 @@
+@import "animations.css";
+@import "fonts.css";
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+
+.center {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    animation: moveUp 1000ms normal;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 2rem;
+}
