@@ -1,1 +1,10 @@
-auto: true
+collections:
+  redirects:
+    output: true
+
+defaults:
+  -
+    scope:
+      type: redirects
+    values:
+      layout: redirect
