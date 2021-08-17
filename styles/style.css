@@ -22,7 +22,17 @@ html {
     left: 50%;
     top: 40%;
     transform: translate(-50%, -50%);
-    animation: moveUp 1000ms normal;
+    /* animation: moveUp 1000ms normal; */
+}
+
+.links {
+    padding-top: 6px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    border-bottom: solid 1px;
 }
 
 .logo {
