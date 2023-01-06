@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lovers+Quarrel&display=swap');
+
+body {
+    overflow: hidden;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    background: #000;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#particles {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    padding: 5% 20%;
+    justify-content: space-around;
+
+    .face {
+        height: 50vh;
+        z-index: 1;
+    }
+
+    .description {
+        font-family: 'Comfortaa', cursive;
+    }
+
+    ul {
+        position: relative;
+        list-style: none;
+        font-size: 20px;
+        color: white;
+
+        a {
+            color: white;
+        }
+
+        .icon {
+            width: 1.3rem;
+        }
+    }
+}
+
+footer {
+    background: #45a1ff;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    p {
+        margin: 0;
+    }
+}

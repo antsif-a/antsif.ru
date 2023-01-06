@@ -5,20 +5,47 @@
         <meta name="author" content="Andrew Antsiferov">
         <meta name="description" content="Andrew Antsiferov's personal website.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>antsif.tk</title>
-        <link rel="stylesheet" href="styles/style.css">
+        <title>andrew antsiferov</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Lovers+Quarrel&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <script type="text/javascript">
+          particlesJS.load('particles', 'assets/particles.json');
+        </script>
     </head>
     <body>
-        <div class="container">
-            <div class="center">
-                <img src="images/logo.png" height="235" width="235" class="logo" alt="logo"/>
-                <p class="name">Antsiferov Andrew</p>
-                <p>Node.js & Java backend developer.</p>
-                <div class="links">
-                    <a href="https://github.com/antsif-a" target="_blank">GitHub</a>
-                    <a href="https://twitter.com/andantsif" target="_blank">Twitter</a>
+        <div id="particles"></div>
+        <main class="container">
+            <header>
+                <div>
+                    <h1>Andrew Antsiferov</h1>
+                    <p>
+                        hello. I'm a 16 y.o student from Archangelsk, Russia.
+                    </p>
+                    <ul>
+                        <li>
+                            <img src="assets/images/mail.svg" alt="mail" class="icon">
+                            <a href="mailto:me@antsif.ru" target="_blank">me@antsif.ru</a>
+                        </li>
+                        <li>
+                            <img src="assets/images/telegram.svg" alt="telegram" class="icon">
+                            <a href="https://t.me/n_00000000000" target="_blank">t.me/n_00000000000</a>
+                        </li>
+                        <li>
+                            <img src="assets/images/vk.svg" alt="vk" class="icon">
+                            <a href="https://vk.com/anciferoff" target="_blank">vk.com/anciferoff</a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-        </div>
+                <img src="assets/images/me.jpg" alt="me" class="face">
+            </header>
+
+            <footer>
+                <p>© 2023 Andrew Antsiferov</p>
+            </footer>
+        </main>
+        <script src="assets/js/index.js"></script>
     </body>
 </html>

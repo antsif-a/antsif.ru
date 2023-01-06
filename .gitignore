@@ -1,2 +1,3 @@
-# WebStrom .idea folder
-/.idea/
+.idea
+.jekyll-cache
+_site
