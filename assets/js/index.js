@@ -1,2 +1,5 @@
 particlesJS.load('particles', 'assets/particles.json');
-document.getElementById('amogus').play();
+let amogus = document.getElementById('amogus');
+window.onload = () => {
+    window.addEventListener('click', () => amogus.play());
+};
